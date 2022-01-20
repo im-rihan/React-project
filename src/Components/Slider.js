@@ -20,7 +20,11 @@ const Slider = () => {
         />
         <Carousel.Caption>
           <h3>First slide label</h3>
-          <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+          <p>
+            Lorem Ipsum is that it has a more-or-less normal distribution of
+            letters, as opposed to using 'Content here, content here', making it
+            look like readable English
+          </p>
         </Carousel.Caption>
       </Carousel.Item>
       <Carousel.Item>
@@ -45,7 +49,8 @@ const Slider = () => {
         <Carousel.Caption>
           <h3>Third slide label</h3>
           <p>
-            Praesent commodo cursus magna, vel scelerisque nisl consectetur.
+            PLorem Ipsum is that it has a content here', making it look like
+            readable English
           </p>
         </Carousel.Caption>
       </Carousel.Item>

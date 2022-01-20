@@ -1,15 +1,16 @@
 import React from "react";
 import Navbar from "./Navbar";
 import Slider from "./Slider";
-import { Link } from "react-router-dom";
+import Card from "./Card";
+import Footer from "./Footer";
 
 const Home = () => {
   return (
     <>
-      <Link exact to={"/"}>
-        <Navbar />
-        <Slider />
-      </Link>
+      <Navbar />
+      <Slider />
+      <Card />
+      <Footer />
     </>
   );
 };

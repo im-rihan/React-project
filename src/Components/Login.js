@@ -6,18 +6,18 @@ const Login = () => {
   const inputHandler = (e) => {
     e.preventDefault();
 
-    // const data = {
-    //   email: this.email,
-    //   password: this.password,
-    // };
-    // axios
-    //   .post("http://localhost:3000/login", data)
-    //   .then((resolve) => {
-    //     console.log(resolve);
-    //   })
-    //   .catch((err) => {
-    //     console.log(err);
-    //   });
+    const data = {
+      email: this.email,
+      password: this.password,
+    };
+    axios
+      .post("http://localhost:3000/login", data)
+      .then((resolve) => {
+        console.log(resolve);
+      })
+      .catch((err) => {
+        console.log(err);
+      });
   };
 
   return (
